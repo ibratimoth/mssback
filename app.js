@@ -36,10 +36,10 @@ app.get('/', (req, res) => {
 
 app.use('/api', RequestRoutes)
 
-const PORT = process.env.PORT || 5005;
+const PORT = process.env.PORT || 5008;
 
 app.listen(PORT, () => {
-    console.log('Server is running on http://localhost:5005')
+    console.log('Server is running on http://localhost:5008')
 });
 
 connectDB()
